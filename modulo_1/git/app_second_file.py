@@ -1,2 +1,5 @@
-print("Bienvenido al Segundo archivo")
-print("Repaso GIT")
+print("My example")
+print("My project")
+
+
+print("Ejemplo de mi practica")
