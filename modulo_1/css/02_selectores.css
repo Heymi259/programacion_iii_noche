@@ -1,0 +1,18 @@
+h1 {
+    color: rgb(180, 32, 110);  
+}
+.tipo_clase {
+    color: orange;
+}
+#tipo_id {
+    color: blue;
+}
+* {
+    margin: 0;
+}
+div p {
+    color: rgb(106, 211, 20);
+}
+ul>li {
+    color: brown;
+}   
