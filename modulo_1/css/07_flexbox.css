@@ -1,0 +1,31 @@
+.contenedor
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: center;
+    gap: 20px;
+    background-color: rgb(234, 235, 238);
+    padding: 20px;
+}
+.item
+{
+ 
+    background-color: rgb(190, 173, 230);
+    color: blue;
+    padding: 20px;
+    flex: 1 0 100px;
+    text-align: center;
+    border-radius: 8px; 
+
+   
+}
+.especial
+{
+    align-self: center ;
+    background-color: rgb(213, 139, 175);
+
+}
+
+
