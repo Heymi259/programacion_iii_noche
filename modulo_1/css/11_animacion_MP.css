@@ -1,0 +1,28 @@
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+        background-color: #FFA500; /* Naranja - comida */
+    }
+    50% {
+        transform: translateX(100px);
+        background-color: #FF4500; /* Rojo - tomate */
+    }
+    100% {
+        transform: translateX(0);
+        background-color: #FFD700; /* Amarillo - queso */
+    }
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: #FFA500;
+    animation: mover 3s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}

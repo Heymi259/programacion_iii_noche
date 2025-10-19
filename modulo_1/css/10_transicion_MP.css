@@ -1,0 +1,27 @@
+body {
+    background-color: #fff5e6; 
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 50px;
+}
+
+h1 {
+    color: #b33c00;
+    margin-bottom: 40px;
+}
+
+.boton {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #d35400; /* ESTE ES PARA QUE SE HAGA MÁS INTENSO*/
+    transform: scale(1.1); /* Y ESTE AUMENTA*/
+}
