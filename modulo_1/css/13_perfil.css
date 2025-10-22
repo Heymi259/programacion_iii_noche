@@ -1,0 +1,29 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+.card {
+   
+    width: 250px;
+    text-align: center;
+    background-color: rgb(221, 230, 227);
+    padding: 16px;   
+    border-radius: 8px;
+    color: blueviolet;
+}
+
+.perfil {
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
